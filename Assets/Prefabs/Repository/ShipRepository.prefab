@@ -1,0 +1,155 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3174408373042009744
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5753416614561934162}
+  - component: {fileID: 5879567721085313605}
+  m_Layer: 0
+  m_Name: ShipRepository
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5753416614561934162
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3174408373042009744}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5879567721085313605
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3174408373042009744}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3002645edd30fa49966c70a83c1ad24, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ships:
+  - key: 0
+    ship: {fileID: 3159289143146138249, guid: 52543e19ac2cc3347810458a3236ba8b, type: 3}
+    speed: 6
+    health: 3
+    guns: 0
+    bulletPower: 1
+    model: Green_one
+    bulletType: 0
+    price: 0
+    isLocked: 0
+    fireRate: 0.7
+    sprite: {fileID: 932548860, guid: 43e9d189ebb884949861fc9bd27f903f, type: 3}
+  - key: 1
+    ship: {fileID: 5316626957013552909, guid: 8475c75a969e21c4f8868a69ddbc3a11, type: 3}
+    speed: 6
+    health: 3
+    guns: 2
+    bulletPower: 0
+    model: Green_two
+    bulletType: 0
+    price: 400
+    isLocked: 1
+    fireRate: 0.65
+    sprite: {fileID: -1066388747, guid: 43e9d189ebb884949861fc9bd27f903f, type: 3}
+  - key: 2
+    ship: {fileID: 2711960367918655384, guid: a6a5b4c31479b154c8a73c07f4f4c0e2, type: 3}
+    speed: 6
+    health: 3
+    guns: 3
+    bulletPower: 0
+    model: Green_three
+    bulletType: 0
+    price: 900
+    isLocked: 1
+    fireRate: 0.6
+    sprite: {fileID: 1338992834, guid: 43e9d189ebb884949861fc9bd27f903f, type: 3}
+  - key: 3
+    ship: {fileID: 8454460805741597092, guid: 840bb113da972534fa9ac39c739e4bde, type: 3}
+    speed: 8
+    health: 4
+    guns: 0
+    bulletPower: 2
+    model: Red_one
+    bulletType: 1
+    price: 1200
+    isLocked: 1
+    fireRate: 0.6
+    sprite: {fileID: -1223416935, guid: 43e9d189ebb884949861fc9bd27f903f, type: 3}
+  - key: 4
+    ship: {fileID: 711755694409394000, guid: 8f951dd301c91bc4b8a2bd13e111ff4a, type: 3}
+    speed: 8
+    health: 4
+    guns: 2
+    bulletPower: 2
+    model: Red_two
+    bulletType: 1
+    price: 1600
+    isLocked: 1
+    fireRate: 0.55
+    sprite: {fileID: -1078856682, guid: 43e9d189ebb884949861fc9bd27f903f, type: 3}
+  - key: 5
+    ship: {fileID: 4137954308129435833, guid: bebd4a33b0266994b8dfb24ad81259fe, type: 3}
+    speed: 8
+    health: 4
+    guns: 3
+    bulletPower: 2
+    model: Red_three
+    bulletType: 1
+    price: 2300
+    isLocked: 1
+    fireRate: 0.55
+    sprite: {fileID: 2055810068, guid: 43e9d189ebb884949861fc9bd27f903f, type: 3}
+  - key: 6
+    ship: {fileID: 4648111711672852451, guid: 581456d9e137ff74c9fa7b7860bca21e, type: 3}
+    speed: 10
+    health: 6
+    guns: 0
+    bulletPower: 3
+    model: Blue_one
+    bulletType: 2
+    price: 3000
+    isLocked: 1
+    fireRate: 0.5
+    sprite: {fileID: 1198638414, guid: 43e9d189ebb884949861fc9bd27f903f, type: 3}
+  - key: 7
+    ship: {fileID: 1038365128682566717, guid: b08ca6caf4ae5194ea8ce246fe9e38af, type: 3}
+    speed: 10
+    health: 6
+    guns: 2
+    bulletPower: 3
+    model: Blue_two
+    bulletType: 2
+    price: 3500
+    isLocked: 1
+    fireRate: 0.5
+    sprite: {fileID: -1435637300, guid: 43e9d189ebb884949861fc9bd27f903f, type: 3}
+  - key: 8
+    ship: {fileID: 6684261236381030465, guid: cb71c9b421dcd2b478ee090bcc81a4c4, type: 3}
+    speed: 10
+    health: 6
+    guns: 3
+    bulletPower: 3
+    model: Blue_three
+    bulletType: 2
+    price: 4500
+    isLocked: 1
+    fireRate: 0.45
+    sprite: {fileID: -97313504, guid: 43e9d189ebb884949861fc9bd27f903f, type: 3}

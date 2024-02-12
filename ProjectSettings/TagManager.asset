@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - bullet_enemy
+  - asteroid
+  - ship_enemy
+  - coin
+  - bullet_Player
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Player
+  - Obstacles
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Background
+    uniqueID: 350390241
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Middle Ground
+    uniqueID: 228557763
+    locked: 0
+  - name: Foreground
+    uniqueID: 3708738295
+    locked: 0
+  - name: UI
+    uniqueID: 3409581389
+    locked: 0
